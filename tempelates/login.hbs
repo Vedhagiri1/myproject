@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    
+</head>
+<body>
+   <style>
+       *{
+            margin: 0;
+            padding: 0;
+            
+            
+        }
+        body{
+           
+           background-image: url("logo/bg.jpg"); 
+           background-size:cover;
+           background-repeat: no-repeat;
+    
+        }
+        form{
+        margin-top: 100px;
+        margin-left: 35%;
+        border: 3px solid rgb(247, 244, 244);
+        box-sizing: border-box;
+        width: 30%;
+        height: 20rem;
+        background: rgba(10, 10, 10, 0.8);
+        border-radius: 5px;
+        box-shadow:0 0 20px 2px rgba(241, 238, 238, 0.8);
+        
+        }
+        .name{
+            width: 200px;
+            height: 20px;
+            padding: 12px 20px;
+            border: none;
+            margin-top: 40px;
+            border-radius: 3px;
+            margin-left: 90px;
+        }
+        .pass{
+             width: 200px;
+            height: 20px;
+            padding: 12px 20px;
+            border: none;
+            margin-top: 10px;
+            border-radius: 3px;
+            margin-left: 90px;
+        }
+        
+        
+        .button{
+            padding: 10px;
+            width: 90px;
+            height: auto;
+            background-color: rgb(0, 225, 255);
+            border: none;
+            border-radius: 5px;
+            margin-left: 160px;
+            margin-top: 40px;
+        }
+        h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:red;
+            margin-top: 10px;
+            margin-left: 150px;
+        }
+        a{
+            color: rgb(0, 255, 0);
+           
+            margin-left: 180px;
+            font-size: large;
+        }
+        
+    </style>
+
+<form action="/login" method="post">
+<h2>Log in</h2>
+<input type="text" name="name" placeholder="Name" class="name"><br></br>
+<input type="password" name="password" placeholder="Password" class="pass">
+<input type="submit" class="button"><br></br>
+<a href="/signup">Sign Up</a> 
+</form>
+   
+</body>
+</html>

@@ -1,0 +1,248 @@
+ 
+  <React.Fragment>
+    <style>
+      html,body{
+	margin: 0;
+	padding: 0;
+	font-family:cambria;
+	
+}
+body{
+	background:white;
+	
+
+	}
+	.homeimg{
+		
+		margin-top: 10px;
+		margin-left: 30px;
+		margin-right: 60px;
+		width: 250px;
+		height: 70px;
+		border-radius: 20px;
+	}
+.navbar{
+	width:auto;
+	padding:7px;
+	background-color:black;
+	box-sizing: border-box;
+}
+.navbar .navbar-header{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+	/*SCOIAL MEDIA*/
+.contact{
+      font-size: 50px;
+      text-align: center;
+}
+.fa {  
+  padding: 10px;  
+  text-align: center;  
+  margin: 90px 80px;
+  margin-top: 80px;  
+  font-size: 100px;  
+  width: 50px; 
+  align-items: center; 
+  text-decoration: none;
+ 
+}  
+
+/* Desktop*/
+@media(min-width: 600px){
+.navbar .navbar-item{
+	position: absolute;
+	right: 20px;
+    top: 0;
+	font-size: 20px;
+	text-decoration: none;
+}
+.navbar .navbar-item ul li{
+	display: inline;
+	margin-right: 15px;
+
+}
+.navbar .navbar-item ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+
+}
+.navbar .navbar-item ul li a:hover{
+	color: red;
+
+}
+.navbar-btn{
+	display: none;
+}
+::placeholder{
+
+	font-size: 15px;}
+form{
+	margin-top: 40px;
+	margin-left: 60%;
+}
+
+#input{
+	width: 70%;
+	padding: 15px 10px ;
+	border-radius: 5px 5px 0 0;
+	background-color: white;
+	font-size: 16px;
+}
+ul{
+	list-style: none;
+	}
+.list{
+	width: 100%;
+	background-color: white;
+	border-radius: 0 0 5px;
+}	
+.btn{
+color: white;
+background-color: skyblue;
+margin-left: 20px;
+width: 80px;
+height: 30px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+.user{
+	margin-top: 0px;
+	margin-left: 90px;
+	color: aliceblue;
+
+}
+}
+.pro ul li img{
+width:200px;
+height: 300px;
+display: inline;
+
+}
+.imag{
+	text-decoration: none;
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+
+a{
+	text-decoration: none;
+	color:white;
+}
+li{
+	list-style: none;
+
+}
+img{
+	width: 30px;
+	height: 20px;
+	margin: 5px;
+}
+h1,h2{
+    color: #444;
+}
+.acc{
+	position: fixed;
+	background: #f05462;
+	width: 20vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.acc .brand{
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.acc li{
+	font-size: 24px;
+	padding: 20px 40px;
+	color: white;
+	display: flex;
+}
+.acc li:hover{
+	background: skyblue;
+	color: #f05462;
+}
+.pro {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.pro img{
+	width: auto;
+	height: 250px;
+	border: 2px solid red;
+	box-shadow: 4px 7px 7px 0px black;
+	cursor: pointer;
+	transition: 1200ms;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+.det del b h3,h1,h2,h4{
+	font-size: 20px;
+	color: black;
+	margin-left: 40px;
+}
+
+    </style>
+    <div class="navbar">
+
+<img src="..\assets\logo\LOGO.PNG" alt="logo" class="homeimg" />
+       <button class="navbar-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="navbar-item hide">
+
+            <ul>
+             <li><a href="/Home"><img src="..\assets\logo\user.png"  class="user" title="Account" /></a><br><br /></li>
+             <li><a href="/Home">Home</a></li>
+             <li><a href ="/about">About us</a></li>
+             <li><a href="/">Account</a></li> 
+            </ul>
+            </div>
+    </div>
+   
+     <form autocomplete="off"><div><input type="text"  id="input" placeholder="search here..." /><button class="btn">search</button>
+</div>
+<ul class="list"></ul>
+</form>
+<div class="pro">
+   <a href="p1.html"> <img src="..\assets\logo\p1.jpg" alt=""  /><p class="det"><b> <h1>Redmi note 8 pro backcover</h1></b></p>
+                            
+        <h2 > 30% off </h2> <h1>₹226</h1><p><h4>M.R.P <del>₹300</del></h4></p></a>
+        <a href="p2.html"> <img src="..\assets\logo\p2.jpg" alt=""  /><p class="det"><b> <h1>apple 14 pro max + backcover</h1></b></p>
+                            
+        <h2 > 40% off </h2> <h1>₹449</h1><p><h4>M.R.P <del>₹999</del></h4></p></a> 
+       <a href="p3.html"> <img src="..\assets\logo\p3.jpg" alt="" class="" /><p class="det"><b> <h1>Realme x3 superzoom backcover</h1></b></p>
+                            
+        <h2 > 70% off </h2> <h1>₹299</h1><p><h4>M.R.P <del>₹889</del></h4></p></a>
+        <a href="p4.html"> <img src="..\assets\logo\p4.jpg" alt="" class="" /><p class="det"><b> <h1>Realme narzo 20 pro backcover</h1></b></p>
+                            
+        <h2 > 66% off </h2> <h1>₹168</h1><p><h4>M.R.P <del>₹499</del></h4></p></a>
+        <a href="t1.html"> <img src="..\assets\logo\t1.jpg" alt="" class="" /><p class="det"><b> <h1>Redmi note 8 pro temperglass</h1></b></p>
+                            
+        <h2 > 20% off </h2> <h1>₹200</h1><p><h4>M.R.P <del>₹399</del></h4></p></a>
+        <a href="t2.html"> <img src="..\assets\logo\t2.jpg" alt="" class="" /><p class="det"><b> <h1>Tempered Glass iPhone 14Pro Max </h1></b></p>
+                            
+        <h2 > 20% off </h2> <h1>₹149</h1><p><h4>M.R.P <del>₹449</del></h4></p></a>
+        <a href="t3.html"> <img src="..\assets\logo\t3.jpg" alt="" class="" /><p class="det"><b> <h1>Realme x3 superzoom temperglass</h1></b></p>
+                            
+        <h2 > 30% off </h2> <h1>₹150</h1><p><h4>M.R.P <del>₹399</del></h4></p></a>
+        <a href="t4.html"> <img src="..\assets\logo\t4.jpg" alt="" class="" /><p class="det"><b> <h1>Realme narzo 20 pro temperglass</h1></b></p>
+                            
+        <h2 > 50% off </h2> <h1>₹100</h1><p><h4>M.R.P <del>₹299</del></h4></p></a>
+</div>
+
+ 
